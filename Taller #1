@@ -1,0 +1,38 @@
+#division punto #1
+dv = (float(input("ingrece el dividendo")))
+di = (float(input("ingrece el divisor")))
+print("el cosiente es:")
+print(dv/di)
+re = print("el residuo es : ")
+print(dv%di)
+
+
+#indice de masa punto #2
+peso = (float(input("ingrese su peso")))
+estatura = (float(input("ingrese su estatura")))
+m = (peso/estatura)^2
+print("su masa corporal es:")
+print(m)
+
+
+# iva punto #3
+v = float(input("ingrese le valor de su producto: "))
+ 
+t = v - 1.127 * 100
+
+iva = v-t
+
+print("el precio original es: ")
+print(v)
+print("el total sin iva es: ")
+print(t)
+print("el iva es de: ")
+print(iva)
+
+
+#consume de combustible  punto #4
+d=(float(input("ingrece la distancia recorrida")))
+c=(float(input("ingrese el consumo de conbustible")))
+costo=(float(input("ingrese el costo del combustible")))
+r=((d/100)*c*costo)
+print(r)
