@@ -1,0 +1,27 @@
+# MENU DE TAREAS 
+print("Escoja una opcion:\n")
+print("1.Para numeros pares a inpares:\n")
+print("2.Para numero factorial:\n")
+print("3.Para numeros Primos:\n ")
+opc = input("Escoja una opcion:\n") 
+
+if opc == '1':
+    num = int(input("Ingrece un numero entero positivo:\n"))
+    for i in range(1 ,num+1,2):
+            print(i)
+elif opc == '2':
+    num = int(input("Ingrece un numero entero:\n"))
+    fac = 1
+    for j in range(1,num+1):
+        fac=fac*j
+        print("su numero factorial es: ",fac)
+elif opc == '3':
+     num = int(input("ingrece un numero:\n"))
+     for k in range(1,num+1):
+          for l in range(2,k+1):
+               if k%l == 0:
+                    primo = False     
+                    if primo == True:
+                         print(k)
+               else:
+                 print(num)
